@@ -1,0 +1,9 @@
+RewriteEngine On
+
+RewriteRule ^Core/app.php - [L]
+RewriteRule ^$ Core/app.php/ [L]
+
+RewriteCond Webroot/ -d
+RewriteRule (.*) Webroot/$1 [L]
+
+RewriteRule (.*) Core/app.php/$1 [L]

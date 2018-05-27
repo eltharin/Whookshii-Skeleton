@@ -1,0 +1,10 @@
+core/
+nbproject/
+plugin/
+config.inc
+vendor/
+webroot/
+web.config
+log/
+temp/
+\.idea/
