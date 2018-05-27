@@ -1,5 +1,5 @@
 {
-    "name": "eltharin/dewebox",
+    "name": "eltharin/dewebox-skeleton",
     "description": "Developer Web Box",
     "keywords": ["framework", "PHP", "Web"],
     "license": "GPL-3.0",
@@ -15,7 +15,7 @@
 			"mkdir Plugin",
 			"mkdir Temp"
 		]
-	}
+	},
     "minimum-stability": "dev",
     "prefer-stable": true
 }
