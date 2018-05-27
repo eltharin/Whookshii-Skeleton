@@ -8,6 +8,14 @@
         "setasign/fpdi-tcpdf": "^2.0",
         "setasign/fpdi": "^2.0"
     },
+	"scripts": {
+		"post-install-cmd": [
+			"mkdir Specs",
+			"mkdir Log",
+			"mkdir Plugin",
+			"mkdir Temp"
+		]
+	}
     "minimum-stability": "dev",
     "prefer-stable": true
 }
