@@ -4,10 +4,6 @@
     "keywords": ["framework", "PHP", "Web"],
     "license": "GPL-3.0",
     "type": "project",
-    "require": {
-        "setasign/fpdi-tcpdf": "^2.0",
-        "setasign/fpdi": "^2.0"
-    },
 	"scripts": {
 		"post-install-cmd": [
 			"mkdir Specs",
@@ -17,5 +13,27 @@
 		]
 	},
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "git",
+            "url": "C:/Users/eltharin/Desktop/testcomposer/core"
+        }
+    ],
+	"require": {
+        "eltharin/core": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Core\\": "Core",
+			"Specs\\": "Specs",
+			"Plugin\\": "Plugin"
+		}
+	},
+	"extra":{
+		"installer-types": ["dewebox-core"],
+		"installer-paths":{
+			"Core": ["vendor:eltharin"]
+		}
+	}
 }
