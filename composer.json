@@ -14,12 +14,6 @@
 	},
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "repositories": [
-        {
-            "type": "git",
-            "url": "C:/Users/eltharin/Desktop/testcomposer/core"
-        }
-    ],
 	"require": {
         "eltharin/core": "*"
 	},
