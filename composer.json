@@ -7,6 +7,9 @@
 	"scripts": {
 		"post-create-project-cmd": [
 			"mkdir Specs",
+			"mkdir Specs/Controllers",
+			"mkdir Specs/Models",
+			"mkdir Specs/Views",
 			"mkdir Log",
 			"mkdir Plugin",
 			"mkdir Temp"
