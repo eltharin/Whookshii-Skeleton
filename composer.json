@@ -6,13 +6,12 @@
     "type": "project",
 	"scripts": {
 		"post-create-project-cmd": [
-			"mkdir Specs",
-			"mkdir Specs/Controllers",
-			"mkdir Specs/Models",
-			"mkdir Specs/Views",
-			"mkdir Log",
-			"mkdir Plugin",
-			"mkdir Temp"
+			"if not exist Specs/Controllers mkdir Specs/Controllers",
+			"if not exist Specs/Models mkdir Specs/Models",
+			"if not exist Specs/Views mkdir Specs/Views",
+			"if not exist Log mkdir Log",
+			"if not exist Plugin mkdir Plugin",
+			"if not exist Temp mkdir Temp"
 		]
 	},
     "minimum-stability": "dev",
