@@ -1,5 +1,5 @@
 {
-    "name": "eltharin/dewebox-skeleton",
+    "name": "eltharin/whookshii-skeleton",
     "description": "Developer Web Box",
     "keywords": ["framework", "PHP", "Web"],
     "license": "GPL-3.0",
@@ -27,7 +27,7 @@
 		}
 	},
 	"extra":{
-		"installer-types": ["dewebox-core"],
+		"installer-types": ["whookshii-core"],
 		"installer-paths":{
 			"Core": ["vendor:eltharin"]
 		}
