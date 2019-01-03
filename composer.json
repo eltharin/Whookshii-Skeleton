@@ -27,9 +27,10 @@
 		}
 	},
 	"extra":{
-		"installer-types": ["whookshii-core"],
+		"installer-types": ["whookshii-core","whookshii-plugin"],
 		"installer-paths":{
-			"Core": ["vendor:eltharin"]
+			"Core": ["type:whookshii-core"],
+			"Plugin/{$name}": ["type:whookshii-plugin"]
 		}
 	}
 }
