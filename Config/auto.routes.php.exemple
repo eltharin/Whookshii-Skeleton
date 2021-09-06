@@ -1,0 +1,10 @@
+<?php
+
+return [
+	'routes' => [
+
+		//'nom de la route' => ['mot_fixe/{variable:.*}','verb : * | GET | POST ','mot_fixe/{variable}'],
+
+	],
+	'automaticsRoutes'	=> true,
+];

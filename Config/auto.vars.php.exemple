@@ -1,0 +1,8 @@
+<?php
+
+return [
+	'db.srv'	=> '',
+	'db.base'	=> '',
+	'db.user'	=> '',
+	'db.pass'	=> '',
+];

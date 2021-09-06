@@ -7,7 +7,8 @@
 	"scripts": {
 		"post-create-project-cmd": [
 			"if not exist \"Specs/Controllers\" mkdir \"Specs/Controllers\"",
-			"if not exist \"Specs/Models\" mkdir \"Specs/Models\"",
+			"if not exist \"Specs/Services\" mkdir \"Specs/Services\"",
+			"if not exist \"Specs/Tables\" mkdir \"Specs/Tables\"",
 			"if not exist \"Specs/Views\" mkdir \"Specs/Views\"",
 			"if not exist Log mkdir Log",
 			"if not exist Plugin mkdir Plugin",

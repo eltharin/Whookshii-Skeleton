@@ -1,0 +1,14 @@
+<?php
+
+return [
+	\Core\App\Middleware\Subfolder::class,
+	\Core\App\Middleware\FileLoader::class,
+	\Core\App\Middleware\Config::class,
+
+	\Core\App\Middleware\Router::class,
+
+	\Core\App\Middleware\Templater::class,
+
+	\Core\App\Middleware\ShutdownSession::class,
+
+];
